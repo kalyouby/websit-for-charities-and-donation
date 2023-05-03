@@ -1,0 +1,191 @@
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url("wave-haikei.svg");
+    background-size: cover;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('hero.png');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Service Section Styles */
+  .services {
+    padding: 50px;
+  }
+  .services h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .service h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .service p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* App Download Section Styles */
+  .download {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+  }
+  .download h2 {
+    margin-bottom: 20px;
+  }
+  .download p {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+  .download .button {
+    margin: 10px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    padding: 50px;
+    text-align: center;
+  }
+  .about h2 {
+    margin-bottom: 50px;
+  }
+  .about p {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  .contact h2 {
+    margin-bottom: 50px;
+    }
+    .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    }
+    .contact label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    }
+    .contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    footer p {
+    font-size: 1.2rem;
+    }
+    
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+    .hero h1 {
+    font-size: 3rem;
+    }
+    .hero p {
+    font-size: 1.2rem;
+    }
+    .services {
+    flex-direction: column;
+    align-items: center;
+    }
+    .service {
+    margin: 20px 0;
+    }
+    }
+    
+    
+  
